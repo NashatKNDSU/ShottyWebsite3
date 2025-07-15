@@ -3,7 +3,8 @@
 }
 
 .image-container img {
-  width: 600px;       /* adjust size as needed */
+  width: 80%;       /* adjust size as needed */
+  max-width: 800px;
   height: auto;       /* maintain aspect ratio */
   display: inline-block;
 }
