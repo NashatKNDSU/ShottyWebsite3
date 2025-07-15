@@ -12,19 +12,7 @@ body{
 }
 .intro{
 	font-size:1em;
-
 }
-.image-container {
-  text-align: center; /* horizontally center the image */
-}
-
-.image-container img {
-  width:80%;
-  max-width: 800px;       /* adjust size as needed */
-  height: auto;       /* maintain aspect ratio */
-  display: inline-block;
-}
-
 .max { 
     display: block;
     word-wrap: break-word;
