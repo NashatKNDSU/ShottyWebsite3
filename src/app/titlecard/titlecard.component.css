@@ -1,0 +1,9 @@
+.image-container {
+  text-align: center; /* horizontally center the image */
+}
+
+.image-container img {
+  width: 600px;       /* adjust size as needed */
+  height: auto;       /* maintain aspect ratio */
+  display: inline-block;
+}

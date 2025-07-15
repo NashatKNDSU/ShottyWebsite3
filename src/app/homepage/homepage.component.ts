@@ -3,10 +3,12 @@ import { MusicpageComponent } from '../musicpage/musicpage.component';
 import { RouterLink, RouterLinkWithHref, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "../navbar/navbar.component";
 import { FlashingTitleComponent } from "../flashing-title/flashing-title.component";
+import { TitlecardComponent } from "../titlecard/titlecard.component";
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-homepage',
-  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent],
+  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })
