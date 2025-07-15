@@ -1,8 +1,7 @@
 footer{
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    background-color: rgb(255, 243, 164);
+    min-height: 80%;
 }
 #extender{
     flex-grow: 1;
