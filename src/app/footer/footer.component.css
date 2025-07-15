@@ -1,4 +1,14 @@
-/*for footer*/
-#main{
-	min-height: 90vh;
+
+footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 80%;
+}
+#extender{
+    flex-grow: 1;
+}
+#line{
+    margin: auto;
+    width: 70%;
+    height: 3px;
 }

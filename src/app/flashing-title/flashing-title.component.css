@@ -1,7 +1,10 @@
 h1, h2, h3, p, a {
   color: blue;
 }
-
+.tab{
+	padding: 25px;
+	margin: 0px;
+}
 
 /* @group Blink */
 .blink {
