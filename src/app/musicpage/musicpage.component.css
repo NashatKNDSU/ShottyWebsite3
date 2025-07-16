@@ -1,0 +1,31 @@
+body{
+  background-image: url('https://frutigeraeroarchive.org/images/wallpapers/windows_stock_photos/windows_stock_photos_5.jpg');
+  background-size:cover;
+  /* overflow: hidden; */
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100vh;
+  -webkit-font-smoothing:antialiased;
+	font-family: "Comic Sans MS", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+.center{
+	text-align: center;
+}
+#albums{
+    width: 50%;
+}
+img{
+    width: 50%;
+}
+h1{
+    color:rgb(255, 69, 69);
+}
+/* .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+} */
