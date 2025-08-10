@@ -8,10 +8,11 @@ import { FooterComponent } from "../footer/footer.component";
 import { SociallinksComponent } from "../sociallinks/sociallinks.component";
 import { FrontpageComponent } from "../frontpage/frontpage.component";
 import { MaintextComponent } from "../maintext/maintext.component";
+import { GuitarcursorComponent } from '../guitarcursor/guitarcursor.component';
 
 @Component({
   selector: 'app-homepage',
-  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent, FrontpageComponent, MaintextComponent],
+  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent, FrontpageComponent, MaintextComponent, GuitarcursorComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })

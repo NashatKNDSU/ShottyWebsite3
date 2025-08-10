@@ -53,6 +53,10 @@ p{
   position: relative;
   bottom: 500px;
 }
+#facemove{
+  position: relative;
+  bottom: -25px;
+}
 #sunmove{
   position: relative;
   bottom: 475px;
