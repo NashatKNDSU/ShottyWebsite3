@@ -6,10 +6,12 @@ import { FlashingTitleComponent } from "../flashing-title/flashing-title.compone
 import { TitlecardComponent } from "../titlecard/titlecard.component";
 import { FooterComponent } from "../footer/footer.component";
 import { SociallinksComponent } from "../sociallinks/sociallinks.component";
+import { FrontpageComponent } from "../frontpage/frontpage.component";
+import { MaintextComponent } from "../maintext/maintext.component";
 
 @Component({
   selector: 'app-homepage',
-  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent],
+  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent, FrontpageComponent, MaintextComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })

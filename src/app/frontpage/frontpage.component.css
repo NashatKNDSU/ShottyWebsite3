@@ -1,0 +1,7 @@
+img{
+    width: 44%;
+    position:absolute;
+    top: 250px;
+    left: 425px;
+    z-index: 150px;
+}

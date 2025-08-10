@@ -1,0 +1,40 @@
+h1{
+    position: relative;
+    top: 65px;
+    z-index: 1;
+    color:red;
+    transition: color 0.3s ease;
+    /* align-self: start; */
+}
+h1:hover{
+    color:blue;
+    transform: scale(1.10);
+}
+
+/* .music{
+    left: 250px;
+    bottom: -75px;
+    transition: color 0.3s ease;
+} */
+/* .music:hover{
+    color:blue;
+    transform: scale(1.10);
+} */
+
+/* .guestbook{
+    left:-200px;
+}
+.minigame{
+    left: 250px;
+    bottom: -60px;
+}
+.events{
+    left:-200px;
+}
+.merch{
+    left: 250px;
+    bottom: -75px;
+}
+.aboutme{
+    left:-200px;
+} */

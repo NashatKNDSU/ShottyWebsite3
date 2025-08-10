@@ -2,7 +2,8 @@
 footer{
     display: flex;
     flex-direction: column;
-    min-height: 80%;
+    min-height: 35%; 
+    /* changing min height helped, it made the gap between the image and the footer smaller.used to be 80% */
 }
 #extender{
     flex-grow: 1;
@@ -13,8 +14,11 @@ footer{
     height: 3px;
 }
 #size{
-    width: 25px;
-    height: 25px;
+    width: 25%;
+
+}
+#smaller{
+    size: 2%;
 }
 /* img{
     width: 5%;

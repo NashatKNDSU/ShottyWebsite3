@@ -1,7 +1,23 @@
 div{
-    width: 4%;
+    width: 20%;
 }
 img{
-    max-width: 90%;
-    max-height: 75%;
+    position:fixed;
+    width: 10%;
+    left: -5px;
+    top: 0px;
+}
+span{
+    display: inline-block;
+}
+p{
+    color:red;
+    font-size: small;
+    position: fixed;
+    top: 120px;
+    left: 15px;
+}
+
+img:hover{
+    transform: scale(1.1);
 }

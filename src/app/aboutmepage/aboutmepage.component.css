@@ -1,0 +1,55 @@
+body{
+	-webkit-font-smoothing:antialiased;
+	font-family: "Comic Sans MS", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.giphy.com/FlodpfQUBSp20.webp");
+}
+.center{
+	text-align: center;
+    
+}
+
+.middle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    color:red;
+    position: relative;
+    bottom: -25px;
+    margin: auto;
+    max-width: 1000px;
+}
+.image-container {
+  text-align: center; /* horizontally center the image */
+}
+
+.image-container img {
+  width: 20%;       /* adjust size as needed */
+  max-width: 800px;
+  height: auto;       /* maintain aspect ratio */
+  display: inline-block;
+  margin: -10px;
+  position: relative;
+  bottom: -39px;
+}
+#shotty4{
+  width: 70%;
+ position: absolute;
+ bottom: 275px;
+ left: 100px;
+}
+#shotty5{
+  width: 100%;
+ position: absolute;
+ bottom: 150px;
+ left: 500px;
+}
+#shotty6{
+  width: 80%;
+ position: absolute;
+ bottom: 150px;
+ left: -350px;
+}
