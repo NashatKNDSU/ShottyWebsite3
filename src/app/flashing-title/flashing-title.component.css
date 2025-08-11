@@ -7,9 +7,10 @@ h1, h2, h3, p, a {
 }
 p{
 	position: absolute;
-	text-align: center;
-	top: 75px;
-	left: 450px;
+	/* top: 75px; */
+	/* left: 450px; */
+	/* left: 40%; top: 12%;  */
+	transform: translate( 450px , -55px);
 }
 
 /* @group Blink */
