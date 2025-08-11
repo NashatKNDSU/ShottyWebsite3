@@ -5,6 +5,12 @@ h1, h2, h3, p, a {
 	padding: 25px;
 	margin: 0px;
 }
+p{
+	position: absolute;
+	text-align: center;
+	top: 75px;
+	left: 450px;
+}
 
 /* @group Blink */
 .blink {
