@@ -11,6 +11,7 @@ p{
 	/* left: 450px; */
 	/* left: 40%; top: 12%;  */
 	transform: translate( 450px , -55px);
+	text-align: center;
 }
 
 /* @group Blink */

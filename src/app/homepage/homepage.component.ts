@@ -9,10 +9,15 @@ import { SociallinksComponent } from "../sociallinks/sociallinks.component";
 import { FrontpageComponent } from "../frontpage/frontpage.component";
 import { MaintextComponent } from "../maintext/maintext.component";
 import { GuitarcursorComponent } from '../guitarcursor/guitarcursor.component';
+import { ExtragifsComponent } from "../extragifs/extragifs.component";
+import { EarthComponent } from "../earth/earth.component";
+import { ThumbsupComponent } from "../thumbsup/thumbsup.component";
+import { CowComponent } from "../cow/cow.component";
+import { TylerComponent } from "../tyler/tyler.component";
 
 @Component({
   selector: 'app-homepage',
-  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent, FrontpageComponent, MaintextComponent, GuitarcursorComponent],
+  imports: [MusicpageComponent, RouterOutlet, RouterLink, RouterLinkWithHref, NavbarComponent, FlashingTitleComponent, TitlecardComponent, FooterComponent, SociallinksComponent, FrontpageComponent, MaintextComponent, GuitarcursorComponent, ExtragifsComponent, EarthComponent, ThumbsupComponent, CowComponent, TylerComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })

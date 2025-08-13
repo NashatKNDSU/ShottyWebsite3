@@ -1,0 +1,9 @@
+img{
+    position: relative;
+    z-index: 3;
+    left: -375px;
+    margin-top: -500px;
+    rotate: 20px;
+    top: -250px;
+    transform: scale(.7);
+}
