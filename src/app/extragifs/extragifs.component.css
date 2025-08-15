@@ -2,8 +2,11 @@ img{
     position: relative;
     z-index: 3;
     transform: translate(120px, 120px);
-    top: -200px;
+    transform: scale(1.5);
+    rotate: 35px;
+    top: -220px;
     margin-bottom: -135px;
-    right: 100px
+    right: -120px
+    
 }
 

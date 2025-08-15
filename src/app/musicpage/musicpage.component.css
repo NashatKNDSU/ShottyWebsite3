@@ -17,7 +17,7 @@ body{
     position:relative;
     left: 375px;
     top: 20px;
-
+    
 }
 #listenhere{
   color:red;
@@ -48,6 +48,11 @@ p{
   width: 40%;
   left: 1000px;
   bottom: 250px;
+}
+#jake{
+  position: relative;
+  bottom: 120px;
+  /* margin-top: 200px; */
 }
 #partymove{
   position: relative;

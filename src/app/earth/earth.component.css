@@ -1,8 +1,9 @@
 img{
     position: relative;
     z-index: 3;
-    bottom: 350px;
-    left: 800px;
+    bottom: 500px;
+    left: 720px;
     margin-bottom: -75px;
     margin-top: -100px;
+    transform: scale(1.5);
 }
