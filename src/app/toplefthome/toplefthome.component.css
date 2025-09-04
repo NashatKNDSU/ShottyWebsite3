@@ -1,0 +1,27 @@
+div{
+    width: 20%;
+}
+img{
+    position:fixed;
+    width: 10%;
+    left: 1350px;
+    top: 0px;
+}
+p{
+    color:rgb(255, 230, 0);
+    font-size: small;
+    position: fixed;
+    top: 120px;
+    left: 1400px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.img-with-text {
+    text-align: justify;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
